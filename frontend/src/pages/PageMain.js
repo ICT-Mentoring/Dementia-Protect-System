@@ -1,9 +1,13 @@
 import React from "react";
+import styles from "../style/PageMain.module.css";
+import SideBar from "../components/SideBar";
+import NaverMap from "../components/NaverMap";
 
 function PageMain() {
   return (
-    <div>
-      <h1>메인 페이지</h1>
+    <div className={styles.container}>
+      <NaverMap />
+      <SideBar />
     </div>
   );
 }

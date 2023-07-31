@@ -1,0 +1,12 @@
+.container {
+    width: 400px;
+    min-width: 400px;
+    float: right;
+    background-color: #E2E2E2;
+}
+
+h1 {
+    background-color: #488DF7;
+    color: #fff;
+    padding: 10px;
+}
