@@ -1,0 +1,34 @@
+.login{
+    margin:auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: ghostwhite;
+}
+
+input{
+    width : 80%;
+    box-sizing: border-box;
+    padding: 15px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    margin-top:-10px;
+    margin-left: 10px;
+}
+
+button{
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    background:lightblue;
+    border-radius: 5px;
+    border: 0 ;
+    margin:auto;
+    top: 80%;
+    left: 30%;
+  }
+  
